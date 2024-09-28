@@ -3,26 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginRight="15dp"
     android:layout_marginTop="15dp"
     android:layout_marginLeft="15dp"
-    android:layout_marginRight="15dp"
     android:orientation="vertical"
-    android:background="#E3E3F3"
+    android:background="@color/gray"
     tools:context=".ForecastFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ECEEFF"
+        android:background="@color/lightblue"
         android:orientation="horizontal"
         android:layout_gravity="center"
-        >
+        android:layout_marginBottom="5dp">
         <TextView
             android:layout_width="113dp"
             android:layout_height="58dp"
             android:text="@string/Mon"
             android:gravity="center"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="18sp" />
 
         <ImageView
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center_vertical"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:text="@string/partly_cloudy"
             android:textSize="15sp" />
 
@@ -47,15 +47,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ECEEFF"
-        android:orientation="horizontal">
+        android:background="@color/lightblue"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
 
         <TextView
             android:layout_width="113dp"
             android:layout_height="58dp"
             android:text="@string/Tue"
             android:gravity="center"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="18sp" />
 
         <ImageView
@@ -71,7 +73,7 @@
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:layout_gravity="center"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:text="@string/showers_n24c_31c"
             android:textSize="15sp" />
 
@@ -80,15 +82,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ECEEFF"
-        android:orientation="horizontal">
+        android:background="@color/lightblue"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
 
         <TextView
             android:layout_width="113dp"
             android:layout_height="58dp"
             android:text="@string/Wed"
             android:gravity="center"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="18sp" />
 
         <ImageView
@@ -104,7 +107,7 @@
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:layout_gravity="center"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:text="@string/rain_n22c_23c"
             android:textSize="15sp" />
 
@@ -113,14 +116,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ECEEFF"
-        android:orientation="horizontal">
+        android:background="@color/lightblue"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
 
         <TextView
             android:layout_width="113dp"
             android:layout_height="58dp"
             android:gravity="center"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:text="@string/Thu" />
 
@@ -130,14 +134,14 @@
             android:layout_marginEnd="30dp"
             android:layout_gravity="center"
             android:contentDescription="@string/weather_icon"
-            android:src="@drawable/cloud" />
+            android:src="@drawable/cloudy" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:layout_gravity="center"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:text="@string/scattered_showers_n22c_27c"
             android:textSize="15sp" />
 
@@ -146,14 +150,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ECEEFF"
-        android:orientation="horizontal">
+        android:background="@color/lightblue"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
 
         <TextView
             android:layout_width="113dp"
             android:layout_height="58dp"
             android:gravity="center"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:text="@string/Fri" />
 
@@ -170,7 +175,7 @@
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:layout_gravity="center"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:text="@string/mostly_cloudy_n22c_30c"
             android:textSize="15sp" />
 
@@ -179,14 +184,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ECEEFF"
-        android:orientation="horizontal">
+        android:background="@color/lightblue"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
 
         <TextView
             android:layout_width="113dp"
             android:layout_height="58dp"
             android:gravity="center"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:text="@string/Sat" />
 
@@ -195,7 +202,7 @@
             android:layout_height="30dp"
             android:layout_marginEnd="30dp"
             android:layout_gravity="center"
-            android:contentDescription="@string/weather_icon"
+            android:contentDescription="@string/partly_cloudy"
             android:src="@drawable/partly_cloudy" />
 
         <TextView
@@ -203,23 +210,23 @@
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:layout_gravity="center"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:text="@string/partly_cloudy_n24c_31c"
             android:textSize="15sp" />
-
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ECEEFF"
-        android:orientation="horizontal">
+        android:background="@color/lightblue"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
 
         <TextView
             android:layout_width="113dp"
             android:layout_height="58dp"
             android:gravity="center"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:text="@string/Sun" />
 
@@ -234,7 +241,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:gravity="center_vertical"
             android:layout_gravity="center"
             android:text="@string/thunderstorms_n25c_28c"
@@ -244,33 +251,34 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#ECEEFF"
-        android:orientation="horizontal">
+        android:layout_height="40dp"
+        android:background="@color/lightblue"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
 
         <TextView
             android:layout_width="113dp"
             android:layout_height="58dp"
             android:gravity="center"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:text="@string/Mon" />
+            android:text="@string/Mon"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
 
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginEnd="30dp"
             android:layout_gravity="center"
+            android:layout_marginEnd="30dp"
             android:contentDescription="@string/weather_icon"
-            android:src="@drawable/cloud" />
+            android:src="@drawable/cloudy" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#000000"
-            android:gravity="center_vertical"
             android:layout_gravity="center"
+            android:gravity="center_vertical"
             android:text="@string/scattered_thunderstorms_n24c_27c"
+            android:textColor="@color/black"
             android:textSize="15sp" />
 
     </LinearLayout>
@@ -278,14 +286,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ECEEFF"
-        android:orientation="horizontal">
+        android:background="@color/lightblue"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
 
         <TextView
             android:layout_width="113dp"
             android:layout_height="58dp"
             android:gravity="center"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:text="@string/Tue" />
 
@@ -301,7 +310,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:layout_gravity="center"
             android:text="@string/showers_n24c_26c"
             android:textSize="15sp" />
@@ -310,17 +319,51 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#ECEEFF"
-        android:orientation="horizontal">
+        android:layout_height="38dp"
+        android:background="@color/lightblue"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
 
         <TextView
             android:layout_width="113dp"
             android:layout_height="58dp"
             android:gravity="center"
-            android:textColor="#000000"
+            android:text="@string/Wed"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="30dp"
+            android:contentDescription="@string/weather_icon"
+            android:src="@drawable/cloudy" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:text="@string/scattered_thunderstorms_n23c_27c"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightblue"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="113dp"
+            android:layout_height="58dp"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:textSize="18sp"
-            android:text="@string/Wed" />
+            android:text="@string/Thu" />
 
         <ImageView
             android:layout_width="30dp"
@@ -328,17 +371,116 @@
             android:layout_marginEnd="30dp"
             android:layout_gravity="center"
             android:contentDescription="@string/weather_icon"
-            android:src="@drawable/cloud" />
+            android:src="@drawable/cloudy" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#000000"
             android:gravity="center_vertical"
             android:layout_gravity="center"
-            android:text="@string/scattered_thunderstorms_n23c_27c"
+            android:textColor="@color/black"
+            android:text="@string/scattered_showers_n22c_27c"
             android:textSize="15sp" />
 
     </LinearLayout>
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightblue"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="113dp"
+            android:layout_height="58dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="@string/Fri" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/weather_icon"
+            android:src="@drawable/partly_cloudy" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/mostly_cloudy_n22c_30c"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightblue"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+
+        <TextView
+            android:layout_width="113dp"
+            android:layout_height="58dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="@string/Sat" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/partly_cloudy"
+            android:src="@drawable/partly_cloudy" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/partly_cloudy_n24c_31c"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightblue"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="113dp"
+            android:layout_height="58dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="@string/Sun" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/weather_icon"
+            android:src="@drawable/thunderstorm" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:text="@string/thunderstorms_n25c_28c"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    </LinearLayout>

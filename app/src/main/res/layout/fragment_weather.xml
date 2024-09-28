@@ -3,12 +3,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9ffba5"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
     tools:context=".WeatherFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:background="#1aebf1"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="225dp"
+            android:layout_height="225dp"
+            android:text="@string/Thu"
+            android:layout_marginLeft="10dp"
+            android:gravity="top|left"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cloudy"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|right"
+            android:layout_marginEnd="10dp"
+            android:textSize="18sp"
+            android:text="@string/VnCity"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center"
+            android:textSize="20sp"
+            android:text="@string/partly_cloudy"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+    </FrameLayout>
 
 </FrameLayout>
